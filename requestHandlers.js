@@ -8,7 +8,6 @@ function start(response) {
         response.write(stdout);
         response.end();
     });
-}
 
 function upload(response) {
     console.log("Request handler 'upload' was called.");
